@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to Your Website Task</title>
+    <style>
+        body {
+            text-align: center;
+            position: relative;
+        }
+        .header {
+            background-color: lightgreen;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .menu {
+            background-color: lightgreen;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        .menu a {
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 20px;
+            color: red;
+            font-weight: bold;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-left: 20px;
+        }
+        .box {
+            font-size: 18px;
+            color: #555;
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 5px;
+            width: 300px;
+            text-align: left;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+        }
+        .box h2 {
+            color: green;
+            margin: 0 0 10px 0;
+        }
+        .right-box {
+            position: absolute;
+            top: 192px; /* Moved lower to ensure no overlap with header */
+            right: 20px;
+        }
+        .footer {
+            background-color: lightgreen;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to Your Website Task</h1>
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="box">
+            <h2>About CSS</h2>
+            <p>CSS is used to style and layout web pages. It allows you to change colors, fonts, spacing, and positioning of elements.</p>
+        </div>
+
+        <div class="box">
+            <h2>Responsive Design</h2>
+            <p>Responsive design ensures web pages look good on all devices by adjusting layout and styles dynamically.</p>
+        </div>
+    </div>
+
+    <div class="box right-box">
+        <h2>Web Accessibility</h2>
+        <p>Web accessibility ensures that websites are usable by people with disabilities, improving overall user experience.</p>
+    </div>
+
+    <div class="footer">
+        Created by Satyam Rai | Follow us on 
+        <a href="https://www.instagram.com" target="_blank">Instagram</a> | 
+        <a href="https://www.twitter.com" target="_blank">Twitter</a> | 
+        <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+    </div>
+</body>
+</html>
